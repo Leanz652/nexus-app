@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import LogoWhite from '../assets/logoWhite.svg';
+import WhatsappLogo from '../assets/whatsapp.svg'
 
 const Navbar = () => {
   const [navOpen, setnav] = useState(false);
@@ -10,17 +12,17 @@ const Navbar = () => {
   };
 
   return (
-    <section className="flex justify-between p-12">
+    <section className="flex items-center justify-between p-12">
       <div>
-        <NavLink to={'/'}>Logo N/A</NavLink>
+        <NavLink to={'/'}> <img src={LogoWhite} alt="Logo" /> </NavLink>
       </div>
-      <div className="hidden gap-4 sm:flex">
+      <div className="hidden items-center gap-4 sm:flex">
         <NavLink to={'/propuesta'}>Nuestra propuesta</NavLink>
         <span>|</span>
         <NavLink to={'/Area'}>Areas</NavLink>
         <span>|</span>
         <NavLink to={'/Contacto'}>Contacto</NavLink>
-        <span>WPP logo</span>
+        <img className=" scale-75 " src={WhatsappLogo} alt="Whatsapp" />
       </div>
       <div className="sm:hidden">
         <span onClick={openNav} className="cursor-pointer">
