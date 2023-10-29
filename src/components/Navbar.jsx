@@ -24,7 +24,7 @@ const Navbar = () => {
       </div>
       <div className="sm:hidden">
         <span onClick={openNav} className="cursor-pointer">
-          |||
+          ☰
         </span>
         <div
           className={
