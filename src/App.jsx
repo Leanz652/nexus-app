@@ -8,7 +8,7 @@ import Contacto from './components/Contacto';
 function App() {
   return (
     <Router>
-      <>
+      <div className="bg-pink-300 relative w-screen h-screen">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -16,7 +16,7 @@ function App() {
           <Route path="/area" element={<Area />} />
           <Route path="/contacto" element={<Contacto />} />
         </Routes>
-      </>
+      </div>
     </Router>
   );
 }
