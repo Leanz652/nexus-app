@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <section className="absolute flex w-full pt-20 px-20 justify-between items-center">
+    <section className="absolute flex w-full pt-14 px-20 justify-between items-center">
       <div className="">
         <NavLink to={'/'}>
           {' '}
