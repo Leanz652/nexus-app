@@ -6,11 +6,10 @@ import Area from "./components/Area";
 import Contacto from "./components/Contacto";
 import Footer from "./components/Footer";
 
-
 function App() {
   return (
-    <div className="bg-pink-300 relative w-screen h-screen">
-    <Router>
+    <div className="bg-black relative w-screen h-screen">
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -19,7 +18,7 @@ function App() {
           <Route path="/contacto" element={<Contacto />} />
         </Routes>
         <Footer />
-    </Router>
+      </Router>
     </div>
   );
 }
