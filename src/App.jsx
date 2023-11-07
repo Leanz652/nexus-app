@@ -1,5 +1,5 @@
-import {Home, Navbar, Footer, Propuesta, Area} from "./components";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Home, Navbar, Footer, Propuesta, Area, Contacto } from './components';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -8,9 +8,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/propuesta" element={<Propuesta/>} />
-          <Route path="/area" element={<Area/>} />
-          <Route path="/contacto" element={<Propuesta/>} />
+          <Route path="/propuesta" element={<Propuesta />} />
+          <Route path="/area" element={<Area />} />
+          <Route path="/contacto" element={<Contacto />} />
         </Routes>
         <Footer />
       </Router>
