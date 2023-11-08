@@ -1,6 +1,5 @@
 const Home = () => {
   return (
-    //Le puse el background MD.
     <div className="h-full flex items-center bg-center bg-cover bg-[url('./assets/buildings_background_md.svg')]">
       <div className="sm:px-20 px-10 mt-10 sm:mt-0">
         <h5 className="tracking-[12px] text-2xl">BIENVENIDOS</h5>
