@@ -25,7 +25,10 @@ const Navbar = () => {
         <NavLink to={'/Area'}>Areas</NavLink>
         <span>|</span>
         <NavLink to={'/Contacto'}>Contacto</NavLink>
+        
+        <a href="https://api.whatsapp.com/send?phone=5491123976686&text=Estoy interesado en asesoría jurídica" target="_blank" rel="noopener noreferrer">
         <img className=" scale-75 " src={WhatsappLogo} alt="Whatsapp" />
+        </a>
       </div>
       <div className="sm:hidden">
         <span onClick={openNav} className="cursor-pointer">
