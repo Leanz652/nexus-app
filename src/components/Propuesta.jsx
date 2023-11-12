@@ -16,7 +16,7 @@ const Propuesta = () => {
           </>
         }
       >
-        <div className="tracking-wider text-xl font-thin">
+        <div className="tracking-wider sm:text-xl font-thin text-sm">
           <div className="mb-5 ">
             <span>Nexus Abogados es un estudio jurídico con asiento en la Ciudad de Buenos Aires, Argentina.</span>
           </div>
