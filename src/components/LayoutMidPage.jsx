@@ -8,8 +8,10 @@ const LayoutMidPage = ({ title, children }) => {
         <img src={arrowLogo} alt="arrow" height={30} width={30} />
       </div>
 
-      <h2 className="sm:text-[70px] text-[35px] mb-10 sm:font-thin">{title}</h2>
+      <h2 className="sm:text-[60px] text-[35px] mb-10 sm:font-thin">{title}</h2>
+      <div className='tracking-wider text-lg font-thin' >
       {children}
+      </div>
     </div>
   );
 };

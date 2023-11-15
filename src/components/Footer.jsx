@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className=" absolute bottom-0 w-full sm:px-20 text-center pb-10 text-xs sm:text-base">
+    <div className=" mt-auto w-full text-center pb-10 text-xs sm:text-base">
       <hr />
 
       <div className=" mt-3 " style={{ color: '#9F9F9F' }}>

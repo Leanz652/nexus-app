@@ -1,9 +1,9 @@
-import LayoutMidPage from './LayoutMidPage';
-import BuildingImg from '../assets/buildings_midpage.svg';
-import LayoutContent from './LayoutContent';
+import LayoutMidPage from "./LayoutMidPage";
+import BuildingImg from "../assets/buildings_midpage.svg";
+import LayoutContent from "./LayoutContent";
 
 const Area = () => {
-  const title = 'Areas';
+  const title = "Areas";
 
   return (
     <LayoutContent imageUrl={BuildingImg}>
@@ -14,16 +14,35 @@ const Area = () => {
           </>
         }
       >
-        <div className="tracking-wider text-xl font-thin">
+        <div className=" flex flex-col ">
           <div className="mb-5 ">
-            <span>Somos un equipo de abogados multidisciplinarios</span>
-          </div>
-          <div className="">
             <span>
-              Nuestra propuesta consiste en ofrecer a nuestros clientes la mejor defensa jurídica con un trato cercano y profesional. Creemos que la
-              comunicación es una de las habilidades más importantes que podemos aportar a nuestros clientes. Una buena comunicación nos permite
-              trabajar de forma eficaz, gestionar los conflictos de forma efectiva y así obtener los mejores resultados.
+              {" "}
+              Somos un equipo de abogados multidisciplinarios que brindamos
+              asesoramiento integral a nuestros clientes.
             </span>
+          </div>
+          <div>
+            <span>
+              Nuestra experiencia en litigios incluye el trabajo de asesoría,
+              negociación y resolución durante todo el proceso litigioso.
+              Nuestras áreas de practica son las siguientes:
+            </span>
+          </div>
+          <div className="flex mt-5 justify-between px-5 text-sm sm:text-xl text-gray-400 ">
+            <ul className="flex flex-col gap-2">
+              <li className=" list-disc ">Derecho Comercial </li>
+              <li className=" list-disc ">Derecho Laboral</li>
+              <li className=" list-disc ">Derecho Societario</li>
+              <li className=" list-disc ">Derecho contractual</li>
+            </ul>
+
+            <ul className="flex flex-col gap-2">
+              <li className=" list-disc ">Derecho Penal</li>
+              <li className=" list-disc ">Derecho Sucesorio</li>
+              <li className=" list-disc ">Derecho Civil</li>
+              <li className=" list-disc ">Derecho de Familia</li>
+            </ul>
           </div>
         </div>
       </LayoutMidPage>

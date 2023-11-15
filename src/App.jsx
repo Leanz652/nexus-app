@@ -1,18 +1,19 @@
-import { Home, Navbar, Footer, Propuesta, Area, Contacto } from './components';
+import { Home, Propuesta, Area, Contacto, Navbar } from './components';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="bg-black relative w-screen h-screen">
+    <div className="bg-black relative  w-screen h-screen">
+
+
       <Router>
-        <Navbar />
+      <Navbar/>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/propuesta" element={<Propuesta />} />
-          <Route path="/area" element={<Area />} />
-          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/nexus-app/" element={<Home />} />
+          <Route path="/nexus-app/propuesta" element={<Propuesta />} />
+          <Route path="/nexus-app/area" element={<Area />} />
+          <Route path="/nexus-app/contacto" element={<Contacto />} />
         </Routes>
-        <Footer />
       </Router>
     </div>
   );
