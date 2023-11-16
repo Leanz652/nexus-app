@@ -1,9 +1,9 @@
-import LayoutMidPage from "./LayoutMidPage";
-import BuildingImg from "../assets/buildings_midpage.svg";
-import LayoutContent from "./LayoutContent";
+import LayoutMidPage from './LayoutMidPage';
+import BuildingImg from '../assets/buildings_midpage.svg';
+import LayoutContent from './LayoutContent';
 
 const Area = () => {
-  const title = "Areas";
+  const title = 'Areas';
 
   return (
     <LayoutContent imageUrl={BuildingImg}>
@@ -16,17 +16,12 @@ const Area = () => {
       >
         <div className=" flex flex-col ">
           <div className="mb-5 ">
-            <span>
-              {" "}
-              Somos un equipo de abogados multidisciplinarios que brindamos
-              asesoramiento integral a nuestros clientes.
-            </span>
+            <span> Somos un equipo de abogados multidisciplinarios que brindamos asesoramiento integral a nuestros clientes.</span>
           </div>
           <div>
             <span>
-              Nuestra experiencia en litigios incluye el trabajo de asesoría,
-              negociación y resolución durante todo el proceso litigioso.
-              Nuestras áreas de practica son las siguientes:
+              Nuestra experiencia en litigios incluye el trabajo de asesoría, negociación y resolución durante todo el proceso litigioso. Nuestras
+              áreas de practica son las siguientes:
             </span>
           </div>
           <div className="flex mt-5 justify-between px-5 text-sm sm:text-xl text-gray-400 ">
