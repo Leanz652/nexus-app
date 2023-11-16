@@ -24,7 +24,7 @@ const Area = () => {
               áreas de practica son las siguientes:
             </span>
           </div>
-          <div className="flex mt-5 justify-between px-5 text-sm sm:text-xl text-gray-400 ">
+          <div className="flex mt-5 justify-between px-5 text-sm sm:text-base 2xl:text-xl text-gray-400 ">
             <ul className="flex flex-col gap-2">
               <li className=" list-disc ">Derecho Comercial </li>
               <li className=" list-disc ">Derecho Laboral</li>

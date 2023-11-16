@@ -48,10 +48,10 @@ const Contacto = () => {
         </div>
         <div className=" w-full sm:w-2/5 sm:h-3/4 flex-col">
           <div className=" mb-10 ">
-            <strong className="sm:text-[60px] text-[35px] mb-10 sm:font-thin">
+            <strong className="2xl:text-[60px] sm:text-[48px] text-[35px] mb-10 sm:font-thin">
               Contactate{" "}
             </strong>
-            <strong className="sm:text-[60px] text-[35px] mb-10 sm:font-thin">
+            <strong className="2xl:text-[60px] sm:text-[48px] text-[35px] mb-10 sm:font-thin">
               con nosotros{" "}
             </strong>
           </div>
