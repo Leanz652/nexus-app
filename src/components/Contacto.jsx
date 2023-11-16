@@ -5,6 +5,7 @@ import locationIcon from "../assets/locationIcon.svg";
 import linkedinIcon from "../assets/linkedinIcon.svg";
 import instagramIcon from "../assets/instaIcon.svg";
 import { useState } from "react";
+import Footer from "./Footer";
 
 const Contacto = () => {
   const maxLength = 255;
@@ -18,11 +19,13 @@ const Contacto = () => {
     }
   };
   return (
-    <div className="flex h-full px-20 items-center">
-      <div className="h-3/4  w-full flex items-center ">
-        <div className="w-3/5 h-3/4 px-5 pt-5 flex flex-col  justify-center ">
+    <div className="flex flex-col pt-[98px] min-h-full px-7 sm:px-20">
+
+      <div className="flex flex-1 items-center" >
+      <div className="sm:h-3/4  w-full flex flex-col-reverse  sm:flex-row items-center  sm:px-0 ">
+        <div className=" w-full sm:w-3/5 sm:h-3/4 sm:px-5 pt-5 flex flex-col  sm:justify-center ">
           <textarea
-            className="block mb-6 w-2/3 p-5 resize-none bg-transparent border border-white focus-visible:outline-none text-lg"
+            className="block mb-6 w-full sm:w-2/3 p-5 resize-none bg-transparent border border-white focus-visible:outline-none text-lg"
             name=""
             id=""
             cols="30"
@@ -32,7 +35,7 @@ const Contacto = () => {
             onChange={handleTextChange}
             placeholder="Tu mensaje  |"
           ></textarea>
-          <div className="flex justify-between items-center w-2/3">
+          <div className="flex justify-between items-center sm:w-2/3 mb-4">
             <div>Caracteres disponibles: {charactersRemaining} </div>
 
 
@@ -43,12 +46,12 @@ const Contacto = () => {
             </a>
           </div>
         </div>
-        <div className="w-2/5 h-3/4 flex-col">
+        <div className=" w-full sm:w-2/5 sm:h-3/4 flex-col">
           <div className=" mb-10 ">
-            <strong className="text-[52px] block font-thin tracking-wide">
+            <strong className="sm:text-[60px] text-[35px] mb-10 sm:font-thin">
               Contactate{" "}
             </strong>
-            <strong className="text-[52px] block font-thin tracking-wide">
+            <strong className="sm:text-[60px] text-[35px] mb-10 sm:font-thin">
               con nosotros{" "}
             </strong>
           </div>
@@ -65,7 +68,7 @@ const Contacto = () => {
               Paraná N° 769 - Piso 3 Dpto &quot;B&quot; CABA, Argentina
             </span>
           </div>
-          <div className=" mt-24  flex gap-5 ">
+          <div className=" sm:mt-24  flex gap-5 ">
             <a
               href="https://www.instagram.com/nexus.abogados?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr"
               target="_blank"
@@ -78,6 +81,11 @@ const Contacto = () => {
           </div>
         </div>
       </div>
+      </div>
+
+      <Footer />
+
+
     </div>
   );
 };
