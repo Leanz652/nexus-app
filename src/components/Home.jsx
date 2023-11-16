@@ -1,5 +1,5 @@
 import clockBg from '../assets/clock_background.svg';
-import buildingsBg from '../assets/buildings_background.svg';
+import buildingsBg from '../assets/buildings_background.jpg';
 import stairsBg from '../assets/stairs_background.svg';
 import { useEffect, useState } from 'react';
 
