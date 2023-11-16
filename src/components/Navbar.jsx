@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <section className="absolute h-[98px] flex w-full sm:px-20 px-16 justify-between items-center">
       <div className="z-20">
-        <NavLink to={'/'}>
+        <NavLink to={'/nexus-app/'}>
           {' '}
           <img src={LogoWhite} alt="Logo" />{' '}
         </NavLink>
