@@ -24,9 +24,9 @@ const Home = () => {
       }}
     >
       <div className="sm:px-20 px-10 mt-10 flex-1 sm:mt-0 flex flex-col justify-center ">
-        <h5 className="tracking-[12px] text-2xl">BIENVENIDOS</h5>
-        <h1 className="text-[50px] sm:text-[110px] font-semibold tracking-wide mt-14 leading-[50px] sm:leading-[90px]">Nexus Abogados</h1>
-        <h2 className="text-[20px] mt-5 sm:text-[70px] tracking-wider">Soluciones Integrales.</h2>
+        <h5 className="tracking-[12px] text-xl 2xl:text-2xl">BIENVENIDOS</h5>
+        <h1 className="text-[50px] sm:text-[90px] 2xl:text-[110px] font-semibold tracking-wide mt-14 leading-[50px] sm:leading-[90px]">Nexus Abogados</h1>
+        <h2 className="text-[20px] mt-5 sm:text-[50px] 2xl:text-[90px] tracking-wider">Soluciones Integrales.</h2>
       </div>
 
     <div className='sm:px-20 px-10' >
