@@ -1,4 +1,3 @@
-import arrowLogo from "../assets/Arrow.svg";
 import mailIcon from "../assets/mailIcon.svg";
 import telefonoIcon from "../assets/telefonoIcon.svg";
 import locationIcon from "../assets/locationIcon.svg";
@@ -55,9 +54,7 @@ const Contacto = () => {
               con nosotros{" "}
             </strong>
           </div>
-          <div className="mb-14">
-            <img src={arrowLogo} alt="arrow" height={30} width={30} />
-          </div>
+
           <div className="mb-6 flex gap-5 ">
             <img src={telefonoIcon} alt="Telefono" height={22} width={22} />
             <span>Tel&nbsp;&nbsp;(54)&nbsp;11-2397-6686</span>
