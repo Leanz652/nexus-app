@@ -20,7 +20,7 @@ const Propuesta = () => {
             <span>Nexus Abogados es un estudio jurídico con asiento en la Ciudad de Buenos Aires, Argentina.</span>
           </div>
           <div>
-            <span>
+            <span className=' text-justify ' >
               Nuestra propuesta consiste en ofrecer a nuestros clientes la mejor defensa jurídica con un trato cercano y profesional. Creemos que la
               comunicación es una de las habilidades más importantes que podemos aportar a nuestros clientes. Una buena comunicación nos permite
               trabajar de forma eficaz, gestionar los conflictos de forma efectiva y así obtener los mejores resultados.
