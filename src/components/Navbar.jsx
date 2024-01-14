@@ -15,17 +15,17 @@ const Navbar = () => {
   return (
     <section className="absolute h-[98px] flex w-full sm:px-20 px-16 justify-between items-center">
       <div className="z-20">
-        <NavLink to={'/nexus-app/'}>
+        <NavLink to={'/'}>
           {' '}
           <img src={LogoWhite} alt="Logo" />{' '}
         </NavLink>
       </div>
       <div className="hidden items-center gap-4 sm:flex">
-        <NavLink to={'/nexus-app/propuesta'}>Nuestra propuesta</NavLink>
+        <NavLink to={'/propuesta'}>Nuestra propuesta</NavLink>
         <span>|</span>
-        <NavLink to={'/nexus-app/area'}>Areas</NavLink>
+        <NavLink to={'/area'}>Areas</NavLink>
         <span>|</span>
-        <NavLink to={'/nexus-app/contacto'}>Contacto</NavLink>
+        <NavLink to={'/contacto'}>Contacto</NavLink>
 
         <a
           href="https://api.whatsapp.com/send?phone=5491123976686&text=Estoy interesado en asesoría jurídica"
@@ -47,15 +47,15 @@ const Navbar = () => {
               : `flex flex-col h-full w-full fixed left-full z-10 top-0 duration-500 justify-center gap-5 text-2xl ps-5 bg-black`
           }
         >
-          <NavLink className={'w-min'} onClick={openNav} to={'/nexus-app/propuesta'}>
+          <NavLink className={'w-min'} onClick={openNav} to={'/propuesta'}>
             <h2>
               Nuestra <br></br>propuesta
             </h2>
           </NavLink>
-          <NavLink className={'w-min'} onClick={openNav} to={'/nexus-app/area'}>
+          <NavLink className={'w-min'} onClick={openNav} to={'/area'}>
             <h2>Areas</h2>
           </NavLink>
-          <NavLink className={'w-min'} onClick={openNav} to={'/nexus-app/contacto'}>
+          <NavLink className={'w-min'} onClick={openNav} to={'/contacto'}>
             <h2>Contacto</h2>
           </NavLink>
         </div>

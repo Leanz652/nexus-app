@@ -9,10 +9,10 @@ function App() {
       <Router>
       <Navbar/>
         <Routes>
-          <Route path="/nexus-app/" element={<Home />} />
-          <Route path="/nexus-app/propuesta" element={<Propuesta />} />
-          <Route path="/nexus-app/area" element={<Area />} />
-          <Route path="/nexus-app/contacto" element={<Contacto />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/propuesta" element={<Propuesta />} />
+          <Route path="/area" element={<Area />} />
+          <Route path="/contacto" element={<Contacto />} />
         </Routes>
       </Router>
     </div>
